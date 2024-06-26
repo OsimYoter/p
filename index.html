@@ -1,1 +1,40 @@
-Hey
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Flier</title>
+    <!-- Latest compiled and minified CSS for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+</head>
+<body dir="rtl"> <!-- Right-to-left direction for Hebrew -->
+    <div class="container">
+        <!-- Image section -->
+        <div class="row" style="height: 66.6vh;">
+            <div class="col-12">
+                <img src="path_to_your_image.jpg" class="img-fluid" alt="פרויקט פלייר"> <!-- Make sure the image is responsive -->
+            </div>
+        </div>
+
+        <!-- Form section -->
+        <div class="row" style="height: 33.3vh;">
+            <div class="col-12">
+                <form>
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">שם מלא</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="הזן שם מלא">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">מספר טלפון</label>
+                        <input type="text" class="form-control" id="phoneNumber" placeholder="הזן מספר טלפון">
+                    </div>
+                    <button type="submit" class="btn btn-primary">שלח</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript for Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
